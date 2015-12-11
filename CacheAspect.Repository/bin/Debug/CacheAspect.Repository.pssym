@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbols LinesOfCode="162" PostSharpLinesOfCode="0" xmlns="http://schemas.postsharp.org/2.0/symbols">
+  <Class Class="#1=T:[CacheAspect.Repository]CacheAspect.Repository.CacheAttribute">
+    <Instance Declaration="#2=M:[CacheAspect.Repository]CacheAspect.Repository.GenericRepository{TEntity}::GetById(System.Object)" Id="8e1236b32274db9">
+      <Target />
+      <Target>
+        <JoinPoint Description="#3=Intercepted by OnInvoke" Ordinal="0" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#4=M:[CacheAspect.Repository]CacheAspect.Repository.GenericRepository{TEntity}::GetAll()" Id="8e1236b6ed63544">
+      <Target />
+      <Target>
+        <JoinPoint Description="#3" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#5=M:[CacheAspect.Repository]CacheAspect.Repository.GenericRepository{TEntity}::Insert(TEntity)" Id="8e1236b68b4611a">
+      <Target />
+      <Target>
+        <JoinPoint Description="#3" Ordinal="2" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#6=M:[CacheAspect.Repository]CacheAspect.Repository.GenericRepository{TEntity}::Update(TEntity)" Id="8e1236b2902696f">
+      <Target />
+      <Target>
+        <JoinPoint Description="#3" Ordinal="3" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#7=M:[CacheAspect.Repository]CacheAspect.Repository.GenericRepository{TEntity}::Delete(TEntity)" Id="8e1236b0df90c1e">
+      <Target />
+      <Target>
+        <JoinPoint Description="#3" Ordinal="4" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#8=M:[CacheAspect.Repository]CacheAspect.Repository.CustomerRepository::GetAllByContactTitle(System.String)" Id="8e1236bb48378e5">
+      <Target />
+      <Target>
+        <JoinPoint Description="#3" Ordinal="5" />
+      </Target>
+    </Instance>
+  </Class>
+</Symbols>
