@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
-namespace CacheAspect.Web.Models
+namespace CacheAspect.Web.Models.CustomerModel
 {
     public class IndexModel
     {

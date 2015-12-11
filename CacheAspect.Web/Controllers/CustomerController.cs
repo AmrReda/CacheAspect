@@ -2,7 +2,8 @@
 using System.Web.Mvc;
 using System.Web.UI.WebControls;
 using AutoMapper;
-using CacheAspect.Service; 
+using CacheAspect.Service;
+using CacheAspect.Web.Models;
 
 namespace CacheAspect.Web.Controllers
 {
